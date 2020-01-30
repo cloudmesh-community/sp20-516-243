@@ -35,7 +35,7 @@ References
 Hydro electricity, as mentioned in the E.Datacenter.2b section, is the primary energy source for Facebook's Lulea, Sweeden data center. 
 However, they also use thermal energy to cool the plant. There are at least two type of thermal energy, the first is the ambient energy of the air. This is the primary thermal energy that the Lulea plant uses. As it is cold in Lulea, the cold air allows less electric energy be used to cool the servers. The other type is geo-thermal. My home is cooled (and to a degree, heated) using geo-thermal energy. A fluid is circulated under ground to bring its temperature close to the average temerpature of the ground. This fluid is then pumped throught the house and the temperature of the house is heated or cooled based on the temerpature of the liquid. 
 
-- [x] E.Datacenter.5
+- [ ] E.Datacenter.5
 
 
 
