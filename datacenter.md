@@ -35,8 +35,12 @@ References
 Hydro electricity, as mentioned in the E.Datacenter.2b section, is the primary energy source for Facebook's Lulea, Sweeden data center. 
 However, they also use thermal energy to cool the plant. There are at least two type of thermal energy, the first is the ambient energy of the air. This is the primary thermal energy that the Lulea plant uses. As it is cold in Lulea, the cold air allows less electric energy be used to cool the servers. The other type is geo-thermal. My home is cooled (and to a degree, heated) using geo-thermal energy. A fluid is circulated under ground to bring its temperature close to the average temerpature of the ground. This fluid is then pumped throught the house and the temperature of the house is heated or cooled based on the temerpature of the liquid. 
 
-- [ ] E.Datacenter.5
+- [x] E.Datacenter.5
 
+Utah's plans for Converting to renewable energy is by enabling communities and municipalities to make to make renewable energy decisions for themselves. The bill, HB0411, outlining this plan was passed in the 2019 general session. This bill authorizes municipalities to negotiate renewable energy sources with the local electricity companies. However, it also allows for households to opt out of the cost of renewable for electricity. The Salt Lake city government used this bill to create their plans to have 100% net renwables in the 2020 decade. They claim 100% net renewables because they will be selling energy in high production times and taking energy from nonrewables in low production time. 
 
+<https://le.utah.gov/~2019/bills/static/HB0411.html>
+<https://www.slc.gov/sustainability/100-renewable-energy-community-goal/>
 
 - [ ] E.Datacenter.8
+
