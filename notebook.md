@@ -17,3 +17,8 @@ First I apologize for not having this done last week.
 * Reviewed python (I realized I am up to speed on this). 
 * Filled out datacenter google doc
 * Did most of the datacenter assignment
+
+## Week 3
+
+* Tried to figure out how to work with cloudmesh installer
+* Datacenter assignment 
