@@ -1,6 +1,8 @@
-# Datacenter Assignment sp20=516-243
+# Datacenter Assignment sp20-516-243
 
 ## E.Datacenter.2.a
+
+Completed
 
 ## E.Datacenter.2.b
 
