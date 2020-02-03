@@ -1,5 +1,7 @@
 # Datacenter Assignment sp20-516-243
 
+:o2: please learn markdown, attending eductaional section mandatory
+
 ## E.Datacenter.2.a
 
 Completed
