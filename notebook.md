@@ -22,3 +22,9 @@ First I apologize for not having this done last week.
 
 * Tried to figure out how to work with cloudmesh installer
 * Datacenter assignment 
+
+## Week 4
+
+* Attended online meeting
+* Attended markdown meeting
+* Researched Azure
