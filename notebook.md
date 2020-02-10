@@ -2,8 +2,6 @@
 
 ## Week 1
 
-First I apologize for not having this done last week.
-
 * Attended online meeting
 * Set up Multipass (successfully!!)
 * Added python 3.8 to path 
@@ -28,3 +26,10 @@ First I apologize for not having this done last week.
 * Attended online meeting
 * Attended markdown meeting
 * Researched Azure
+* Worked on Provider.py for cloudmesh-multipass
+* Attended meeting regarding cloudmesh for Windows
+
+## Week 5
+
+* Participated in Piazza
+* Worked on Azure assignment
