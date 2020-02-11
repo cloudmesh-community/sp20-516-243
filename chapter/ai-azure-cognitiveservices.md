@@ -1,4 +1,4 @@
-# Cognitive Services on Azure sp20-516-243 David Drummond
+# :o: Cognitive Services on Azure sp20-516-243 David Drummond
 
 ## Introduction
 
