@@ -1,4 +1,4 @@
-# AI Services on Azure
+# :o: AI Services on Azure
 
 * sp20-516-243 David Drummond
 
