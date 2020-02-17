@@ -2,11 +2,15 @@
 
 ## Introduction
 
+Cognitive services on Azure provides AI technologies to those with little AI understanding. It is the umbrella service for all of the pretrained models in Azure's library. These services provide valuable resources for those who need vanilla AI service applications without much custom tuning. They provide API plugins for REST API, Python, .NET, and Go. With this broad spectrum of native and plugin application, it gives developers relevant tools to incorporate these services into their applications. [[Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/face/index)] 
+
 ## Applications
 
-As cognitive services is an umbrella service, there are many
+As cognitive services is an umbrella service, there are different categories of developer tools within this service. This includes decision tools, language tools, speech tools, vision tools, and search tools.
 
 ### Decision
+
+Decision tools enable stakeholders to automate data analysis for a variety of applications including anomoly detection, content moderation, and personalizing. This can provide service for both end-user and developer to scale businesses and automate menial work. 
 
 #### Anomoly Detector
 
