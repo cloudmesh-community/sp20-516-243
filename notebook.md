@@ -33,3 +33,8 @@
 
 * Participated in Piazza
 * Worked on Azure assignment
+
+## Week 6
+
+* Attended meeting on Cloudmesh-frugal
+* Worked on Azure assignment
