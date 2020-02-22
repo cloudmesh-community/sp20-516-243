@@ -34,6 +34,7 @@ Content moderator serves as a gatekeeper for content on user generated content. 
 |Account  |	Transactions per Second (TPS)	| Features        |	Price                                           |
 |---      |---                            |---              |---                                              |
 |Free     |	1 TPS	                        | Moderate, Review| N/A                                             |
+|||||
 |Standard	|10 TPS	                        |Moderate, Review |	0-1M transactions - $1 per 1,000 transactions   |
 |         |                               |                 |1M-5M transactions - $0.75 per 1,000 transactions|
 |         |                               |                 |5M-10M transactions - $0.60 per 1,000 transactions|
@@ -46,6 +47,15 @@ Content moderator serves as a gatekeeper for content on user generated content. 
 Personalizer is a ready to use, SDK for user recomendations on end user expereinces. This service has limited server rollout. 
 
 The algorithm works by the developer assigning user actions to a algorithmic reward system. If the computer correctly identifies the users action, it is rewarded, else it recieves not reward and adjusts the algorithm. 
+
+|Account|Price|Storage|
+|---|---|---|
+|Free|50,000 transactions free /month| 10 GB|
+||||
+|Paid|First 1M transactions $1 per 1000 transactions|10 GB/1M transactions/month|
+||Next 9M transaction $0.35 per 1000 transactions||
+||Next 90M transaction $0.20 per 1000 transactions||
+||Above 100M transactions $0.05 per 1000 transactions||
 
 <https://docs.microsoft.com/en-us/azure/cognitive-services/personalizer/what-is-personalizer>
 
@@ -62,6 +72,8 @@ Immersive reader is a preview only service to add AI text to speech integration 
 <https://azure.microsoft.com/en-us/services/cognitive-services/immersive-reader/>
 
 #### Language Understanding
+
+Language Understanding is a pretrained natural language processor. It is available through SDK using C#, Python, and JavaScript. It is additionally available using REST in all REST compatible languages. Free versions of language understanding can process typed language; whereas, the paid version can process both typed and spoken language. Language understanding can be applied to bot services or IoT control
 
 <https://azure.microsoft.com/en-us/services/cognitive-services/language-understanding-intelligent-service/>
 
