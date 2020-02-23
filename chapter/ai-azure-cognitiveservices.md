@@ -73,7 +73,11 @@ Immersive reader is a preview only service to add AI text to speech integration 
 
 #### Language Understanding
 
-Language Understanding is a pretrained natural language processor. It is available through SDK using C#, Python, and JavaScript. It is additionally available using REST in all REST compatible languages. Free versions of language understanding can process typed language; whereas, the paid version can process both typed and spoken language. Language understanding can be applied to bot services or IoT control
+Language Understanding is a pretrained natural language processor. It is available through SDK using C#, Python, and JavaScript. It is additionally available using REST in all REST compatible languages. Free versions of language understanding can process typed language; whereas, the paid version can process both typed and spoken language. Language understanding can be applied to bot services or IoT control. 
+
+|INSTANCE|TRANSACTIONS PER SECOND (TPS)|FEATURES|PRICE|
+|---     |---                          |---     |---|
+|Free|Web/Container|	5 TPS	Text Requests|10,000 transactions free per month|
 
 <https://azure.microsoft.com/en-us/services/cognitive-services/language-understanding-intelligent-service/>
 
