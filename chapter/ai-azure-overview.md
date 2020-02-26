@@ -1,5 +1,7 @@
 # :o: AI Services on Azure
 
+:o2: bibtex missing
+
 * sp20-516-243 David Drummond
 
 Azure is the Microsoft cloud computing platform. Azure operates through a multiplicity of data centers in order the the information processing to occur in closer physical proximity to end users. Azure initially lauched in 201o and the public deployment of its Machine learning arm occured in 2014. The following overview of the AI services on Azure encompasses only the applications that Azure has listed as "AI." 
@@ -8,6 +10,8 @@ Azure is the Microsoft cloud computing platform. Azure operates through a multip
 
 Cognitive services is a service from Azure that is intended for devolpers with little ML understanding of experience. It provides out of the box tools  including:
 
+<div class="smalltable">
+  
 | Service | Description |
 |---------|-------------|
 | [Anomoly Detector](<https://azure.microsoft.com/en-us/services/cognitive-services/anomaly-detector/>) | Allows decision makers to easily detect sudden changes in data patterns.|
@@ -38,4 +42,5 @@ Cognitive services is a service from Azure that is intended for devolpers with l
 | [Bing Visual Search](<https://azure.microsoft.com/en-us/services/cognitive-services/bing-visual-search/>) | Search elements of images such as products. |
 | [Bing Web Search](<https://azure.microsoft.com/en-us/services/cognitive-services/bing-web-search-api/>) | Gives Bing Web Search integration. |
 
-** Resources
+</div>
+
