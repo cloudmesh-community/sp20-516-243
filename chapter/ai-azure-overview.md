@@ -4,7 +4,7 @@
 
 * sp20-516-243 David Drummond
 
-Azure is the Microsoft cloud computing platform. Azure operates through a multiplicity of data centers in order the the information processing to occur in closer physical proximity to end users. Azure initially lauched in 201o and the public deployment of its Machine learning arm occured in 2014. The following overview of the AI services on Azure encompasses only the applications that Azure has listed as "AI." 
+Azure is the Microsoft cloud computing platform. Azure operates through a multiplicity of data centers in order the the information processing to occur in closer physical proximity to end users. Azure initially lauched in 2010 and the public deployment of its Machine learning arm occured in 2014. The following overview of the AI services on Azure encompasses only the applications that Azure has listed as "AI." 
 
 ## Azure Cognitive Services
 
@@ -41,6 +41,6 @@ Cognitive services is a service from Azure that is intended for devolpers with l
 | [Bing Video Search](<https://azure.microsoft.com/en-us/services/cognitive-services/bing-video-search-api/>) | Gives Bing video search integration. |
 | [Bing Visual Search](<https://azure.microsoft.com/en-us/services/cognitive-services/bing-visual-search/>) | Search elements of images such as products. |
 | [Bing Web Search](<https://azure.microsoft.com/en-us/services/cognitive-services/bing-web-search-api/>) | Gives Bing Web Search integration. |
-
+[@azure-ai-sp20-516-243]
 </div>
 
