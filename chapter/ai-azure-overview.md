@@ -8,7 +8,7 @@ Azure is the Microsoft cloud computing platform. Azure operates through a multip
 
 ## Azure Cognitive Services
 
-Cognitive services is a service from Azure that is intended for devolpers with little ML understanding of experience. It provides out of the box tools  including:
+Cognitive services is a service from Azure that is intended for devolpers with little ML understanding of experience. It provides out of the box tools  including [@azure-ai-sp20-516-243]:
 
 <div class="smalltable">
   
@@ -41,6 +41,6 @@ Cognitive services is a service from Azure that is intended for devolpers with l
 | [Bing Video Search](<https://azure.microsoft.com/en-us/services/cognitive-services/bing-video-search-api/>) | Gives Bing video search integration. |
 | [Bing Visual Search](<https://azure.microsoft.com/en-us/services/cognitive-services/bing-visual-search/>) | Search elements of images such as products. |
 | [Bing Web Search](<https://azure.microsoft.com/en-us/services/cognitive-services/bing-web-search-api/>) | Gives Bing Web Search integration. |
-[@azure-ai-sp20-516-243]
+
 </div>
 
