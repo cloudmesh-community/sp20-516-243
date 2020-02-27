@@ -6,7 +6,7 @@ Cognitive services on Azure provides AI technologies to those with little AI und
 
 ## Applications
 
-As cognitive services is an umbrella service, there are different categories of developer tools within this service. This includes decision tools, language tools, speech tools, vision tools, and search tools. Not all tools are available in all regions. [[Documentation](<https://azure.microsoft.com/en-us/global-infrastructure/services/?products=all>)]. 
+As cognitive services is an umbrella service, there are different categories of developer tools within this service. This includes decision tools, language tools, speech tools, and vision tools. Not all tools are available in all regions. [[Documentation](<https://azure.microsoft.com/en-us/global-infrastructure/services/?products=all>)]. 
 ### Decision
 
 Decision tools enable stakeholders to automate data analysis for a variety of applications including anomoly detection, content moderation, and personalizing. This can provide service for both end-user and developer to scale businesses and automate menial work.  
@@ -34,11 +34,7 @@ Content moderator serves as a gatekeeper for content on user generated content. 
 |Account  |	Transactions per Second (TPS)	| Features        |	Price                                           |
 |---      |---                            |---              |---                                              |
 |Free     |	1 TPS	                        | Moderate, Review| N/A                                             |
-|||||
-|Standard	|10 TPS	                        |Moderate, Review |	0-1M transactions - $1 per 1,000 transactions   |
-|         |                               |                 |1M-5M transactions - $0.75 per 1,000 transactions|
-|         |                               |                 |5M-10M transactions - $0.60 per 1,000 transactions|
-|         |                               |                 |10M+ transactions - $0.40 per 1,000 transactions  |
+|Standard	|10 TPS	                        |Moderate, Review |	0-1M transactions - $1 per 1,000 transactions <br> 1M-5M transactions - $0.75 per 1,000 transactions <br> 5M-10M transactions - $0.60 per 1,000 transactions <br> 10M+ transactions - $0.40 per 1,000 transactions|
 
 <https://azure.microsoft.com/en-us/services/cognitive-services/content-moderator/>
 
@@ -51,10 +47,8 @@ The algorithm works by the developer assigning user actions to a algorithmic rew
 |Account|Price|Storage|
 |---|---|---|
 |Free|50,000 transactions free /month| 10 GB|
-||||
-|Paid|First 1M transactions $1 per 1000 transactions|10 GB/1M transactions/month|
-||Next 9M transaction $0.35 per 1000 transactions||
-||Next 90M transaction $0.20 per 1000 transactions||
+|Paid|First 1M transactions $1 per 1000 transactions <br> Next 9M transaction $0.35 per 1000 transactions <br> Next 90M transaction $0.20 per 1000 transactions <br> Above 100M transactions $0.05 per 1000 transactions |10 GB/1M transactions/month|
+
 ||Above 100M transactions $0.05 per 1000 transactions||
 
 <https://docs.microsoft.com/en-us/azure/cognitive-services/personalizer/what-is-personalizer>
@@ -77,15 +71,38 @@ Language Understanding is a pretrained natural language processor. It is availab
 
 |INSTANCE|TRANSACTIONS PER SECOND (TPS)|FEATURES|PRICE|
 |---     |---                          |---     |---|
-|Free|Web/Container|	5 TPS	Text Requests|10,000 transactions free per month|
+|Free Web/Container|	5 TPS |	Text Requests|10,000 transactions free per month|
+|Standard|50 TPS|Text Requests|$1.50 per 1000 transactions|
+|||Speech Requests|$5.50 per 1000 transactions|
 
 <https://azure.microsoft.com/en-us/services/cognitive-services/language-understanding-intelligent-service/>
 
 #### QnA Maker
 
+QnA Maker uses Knowledge base databases to create a chat bot. It can be customized to different levels of formality. It allows for additional processes to be added over time. It supports C#, Python, and JavaScript. For knowledge base integreation it supports cURL and Postman.
+
+|INSTANCE|TRANSACTIONS PER SECOND (TPS)|LIMITATIONS|PRICE|
+|---     |---                          |---     |---|
+|Free Web/Container|	3 TPS |	Up to 1MB each document <br> Up to 1MB each document <br> Up to 100 transactions per minute <br> Up to 50,000 transactions per month|3 managed documents free per month|
+|Standard|3 TPS|Up to 100 transactions per minute|$10 for unlimited managed documents|
+
+<https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/quickstarts/get-answer-from-knowledge-base-using-url-tool?pivots=url-test-tool-curl>
+
 <https://azure.microsoft.com/en-us/services/cognitive-services/qna-maker/>
 
 #### Text Analytics
+
+Text analytics aims to provide broad range text analytic service in SDK packaging. The key features are sentiment analysis, key phrases extraction, named entities extraction and language determination. There is SDK available for C#, Python, Node.js, Go, and Ruby. It provides easy integration to Power BI and Flask. 
+
+|INSTANCE|FEATURES|PRICE|
+|---|---|---|
+|Free|Sentiment Analysis <br> Key Phrase Extraction <br> Language Detection <br> Named Entity Recognition (not available in Container)| N/A|
+|Standard|Sentiment Analysis <br> Key Phrase Extraction <br> Language Detection <br> Named Entity Recognition (not available in Container)|0-500,000 text records — $2 per 1,000 text records <br> 0.5M-2.5M text records — $1 per 1,000 text records <br> 2.5M-10.0M text records — $0.50 per 1,000 text records <br> 10M+ text records — $0.25 per 1,000 text records |
+|S0 |Sentiment Analysis <br> Key Phrase Extraction <br> Language Detection <br> Named Entity Recognition | $74.71/month <br> Up to 25,000 transactions per month <br> <br> Overage: $3 per 1,000 transactions |
+|S1 |Sentiment Analysis <br> Key Phrase Extraction <br> Language Detection <br> Named Entity Recognition | $249.86/month <br> Up to 100,000 transactions per month <br> <br> Overage: $2.50 per 1,000 transactions |
+|S2 |Sentiment Analysis <br> Key Phrase Extraction <br> Language Detection <br> Named Entity Recognition | $999.75/month <br> Up to 500,000 transactions per month <br> <br> Overage: $2 per 1,000 transactions |
+|S3 |Sentiment Analysis <br> Key Phrase Extraction <br> Language Detection <br> Named Entity Recognition | $2,499.84/month <br> Up to 2,500,000 transactions per month <br> <br> Overage: $1 per 1,000 transactions |
+|S4 |Sentiment Analysis <br> Key Phrase Extraction <br> Language Detection <br> Named Entity Recognition | $4999.99/month <br> Up to 10,000,000 transactions per month <br> <br> Overage: $0.50 per 1,000 transactions |
 
 <https://azure.microsoft.com/en-us/services/cognitive-services/text-analytics/>
 
@@ -136,44 +153,4 @@ Language Understanding is a pretrained natural language processor. It is availab
 #### Video Indexer
 
 <https://azure.microsoft.com/en-us/services/media-services/video-indexer/>
-
-### Search
-
-#### Bing Autosuggest
-
-<https://azure.microsoft.com/en-us/services/cognitive-services/autosuggest/>
-
-#### Bing Custom Search
-
-<https://azure.microsoft.com/en-us/services/cognitive-services/bing-custom-search/>
-
-#### Bing Entity Search
-
-<https://azure.microsoft.com/en-us/services/cognitive-services/bing-entity-search-api/>
-
-#### Bing Image Search
-
-<https://azure.microsoft.com/en-us/services/cognitive-services/bing-image-search-api/>
-
-#### Bing News Search
-
-<https://azure.microsoft.com/en-us/services/cognitive-services/bing-news-search-api/>
-
-#### Bing Spell Check
-
-<https://azure.microsoft.com/en-us/services/cognitive-services/spell-check/>
-
-#### Bing Video Search
-
-<https://azure.microsoft.com/en-us/services/cognitive-services/bing-video-search-api/>
-
-#### Bing Visual Search
-
-<https://azure.microsoft.com/en-us/services/cognitive-services/bing-visual-search/>
-
-#### Bing Web Search
-
-<https://azure.microsoft.com/en-us/services/cognitive-services/bing-web-search-api/>
-
-
 
