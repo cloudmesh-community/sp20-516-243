@@ -32,15 +32,16 @@ Cognitive services is a service from Azure that is intended for devolpers with l
 | [Form Recognizer](<https://azure.microsoft.com/en-us/services/cognitive-services/form-recognizer/>) | Extracts data from images of forms. |
 | [Ink Recognizer](<https://azure.microsoft.com/en-us/services/cognitive-services/ink-recognizer/>) | Recognizes handwritting and converts it to text. |
 | [Video Indexer](<https://azure.microsoft.com/en-us/services/media-services/video-indexer/>) | Metadata analysis of videos. |
-| [Bing Autosuggest](<https://azure.microsoft.com/en-us/services/cognitive-services/autosuggest/>) | Auto-completion API tool. |
-| [Bing Custom Search](<https://azure.microsoft.com/en-us/services/cognitive-services/bing-custom-search/>) | Gives search engine to specific domains. |
-| [Bing Entity Search](<https://azure.microsoft.com/en-us/services/cognitive-services/bing-entity-search-api/>) | Gives context to entities in search such as people places or things. |
-| [Bing Image Search](<https://azure.microsoft.com/en-us/services/cognitive-services/bing-image-search-api/>) | Gives Bing image search integration. |
-| [Bing News Search](<https://azure.microsoft.com/en-us/services/cognitive-services/bing-news-search-api/>) | Gives Bing News search integration |
-| [Bing Spell Check](<https://azure.microsoft.com/en-us/services/cognitive-services/spell-check/>) | Context intelligent spell check. |
-| [Bing Video Search](<https://azure.microsoft.com/en-us/services/cognitive-services/bing-video-search-api/>) | Gives Bing video search integration. |
-| [Bing Visual Search](<https://azure.microsoft.com/en-us/services/cognitive-services/bing-visual-search/>) | Search elements of images such as products. |
-| [Bing Web Search](<https://azure.microsoft.com/en-us/services/cognitive-services/bing-web-search-api/>) | Gives Bing Web Search integration. |
+
+## Machine Learning Lab
+
+Azure's machine learning lab is a multifaceted machine learning container platform intended to give machine learning practitioners to create and deploy custom ML models. Azure focuses highly on MLOps- a play on DevOps for machine learning practitioners 
+
+## Bot Services
+
+## Genomics Account
+
+
 
 </div>
 
