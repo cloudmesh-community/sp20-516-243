@@ -7,6 +7,7 @@ Cognitive services on Azure provides AI technologies to those with little AI und
 ## Applications
 
 As cognitive services is an umbrella service, there are different categories of developer tools within this service. This includes decision tools, language tools, speech tools, and vision tools. Not all tools are available in all regions. [[Documentation](<https://azure.microsoft.com/en-us/global-infrastructure/services/?products=all>)]. 
+
 ### Decision
 
 Decision tools enable stakeholders to automate data analysis for a variety of applications including anomoly detection, content moderation, and personalizing. This can provide service for both end-user and developer to scale businesses and automate menial work.  
@@ -56,6 +57,8 @@ The algorithm works by the developer assigning user actions to a algorithmic rew
 <https://azure.microsoft.com/en-us/services/cognitive-services/personalizer/>
 
 ### Language
+
+The language application package aims to add natural language processing tools to developers in the form of API and SDK. 
 
 #### Immersive Reader
 
@@ -108,11 +111,22 @@ Text analytics aims to provide broad range text analytic service in SDK packagin
 
 #### Translator Text
 
+The translator text API provides neural translator services for developer integration. It is available in C# and REST API. Azure marketing tools indicate that it is useful for increasing research text data, detecting input language, bilingual dictionary tools, on device translation, and custom trained translation. 
+
+|INSTANCE|FEATURES|PRICE|
+|---|---|---|
+|Free|Standard Translation <br>    -Text Translation <br>    -Language Detection <br>    -Bilingual Dictionary <br>    -Transliteration <br> Custom Translation <br>    -Training| 2M Characters Free|
+|S1|Standard Translation <br>    -Text Translation <br>    -Language Detection <br>    -Bilingual Dictionary <br>    -Transliteration <br> Custom Translation <br>    -Training <br>  -Translation <br> -Custom model hosting| Standard <br>  - $10 per million characters <br> <br> <br> Custom <br> -$40 per million chars of custom translation <br> -$10 per million source + target chars of training data (max. $300/training) <br> -$10 per hosted custom translation model per region, per month|
+
 <https://azure.microsoft.com/en-us/services/cognitive-services/translator-text-api/>
 
 ### Speech
 
+Speech packages adds additional natural language processing tools to developers for spoken language. 
+
 #### Speech to Text
+
+
 
 <https://azure.microsoft.com/en-us/services/cognitive-services/speech-to-text/>
 
@@ -127,7 +141,6 @@ Text analytics aims to provide broad range text analytic service in SDK packagin
 #### Speaker Recognition
 
 <https://azure.microsoft.com/en-us/services/cognitive-services/speaker-recognition/>)
-
 ### Vision
 
 #### Computer Vision
