@@ -48,7 +48,7 @@ The algorithm works by the developer assigning user actions to a algorithmic rew
 |Account|Price|Storage|
 |---|---|---|
 |Free|50,000 transactions free /month| 10 GB|
-|Paid|First 1M transactions $1 per 1000 transactions    Next 9M transaction $0.35 per 1000 transactions    Next 90M transaction $0.20 per 1000 transactions    Above 100M transactions $0.05 per 1000 transactions |10 GB/1M transactions/month|
+|Paid|First 1M transactions $1 per 1000 transactions,    Next 9M transaction $0.35 per 1000 transactions,    Next 90M transaction $0.20 per 1000 transactions,    Above 100M transactions $0.05 per 1000 transactions |10 GB/1M transactions/month|
 
 ||Above 100M transactions $0.05 per 1000 transactions||
 
@@ -86,7 +86,7 @@ QnA Maker uses Knowledge base databases to create a chat bot. It can be customiz
 
 |INSTANCE|TRANSACTIONS PER SECOND (TPS)|LIMITATIONS|PRICE|
 |---     |---                          |---     |---|
-|Free Web/Container|	3 TPS |	Up to 1MB each document    Up to 1MB each document    Up to 100 transactions per minute    Up to 50,000 transactions per month|3 managed documents free per month|
+|Free Web/Container|	3 TPS |	Up to 1MB each document,    Up to 1MB each document,    Up to 100 transactions per minute,    Up to 50,000 transactions per month|3 managed documents free per month|
 |Standard|3 TPS|Up to 100 transactions per minute|$10 for unlimited managed documents|
 
 <https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/quickstarts/get-answer-from-knowledge-base-using-url-tool?pivots=url-test-tool-curl>
@@ -99,13 +99,8 @@ Text analytics aims to provide broad range text analytic service in SDK packagin
 
 |INSTANCE|FEATURES|PRICE|
 |---|---|---|
-|Free|Sentiment Analysis <br> Key Phrase Extraction <br> Language Detection <br> Named Entity Recognition (not available in Container)| N/A|
-|Standard|Sentiment Analysis    Key Phrase Extraction    Language Detection    Named Entity Recognition (not available in Container)|0-500,000 text records — $2 per 1,000 text records <br> 0.5M-2.5M text records — $1 per 1,000 text records    2.5M-10.0M text records — $0.50 per 1,000 text records    10M+ text records — $0.25 per 1,000 text records |
-|S0 |Sentiment Analysis    Key Phrase Extraction    Language Detection    Named Entity Recognition | $74.71/month    Up to 25,000 transactions per month        Overage: $3 per 1,000 transactions |
-|S1 |Sentiment Analysis    Key Phrase Extraction    Language Detection    Named Entity Recognition | $249.86/month    Up to 100,000 transactions per month        Overage: $2.50 per 1,000 transactions |
-|S2 |Sentiment Analysis    Key Phrase Extraction    Language Detection    Named Entity Recognition | $999.75/month     Up to 500,000 transactions per month         Overage: $2 per 1,000 transactions |
-|S3 |Sentiment Analysis     Key Phrase Extraction    Language Detection    Named Entity Recognition | $2,499.84/month     Up to 2,500,000 transactions per month         Overage: $1 per 1,000 transactions |
-|S4 |Sentiment Analysis     Key Phrase Extraction     Language Detection      Named Entity Recognition | $4999.99/month      Up to 10,000,000 transactions per month          Overage: $0.50 per 1,000 transactions |
+|Free|Sentiment Analysis,       Key Phrase Extraction,    Language Detection,       Named Entity Recognition (not available in Container)| N/A|
+|Standard|Sentiment Analysis,     Key Phrase Extraction,     Language Detection,     Named Entity Recognition (not available in Container)|0-500,000 text records: $2 per 1,000 text records,      0.5M-2.5M text records: $1 per 1,000 text records,      2.5M-10.0M text records: $0.50 per 1,000 text records,      10M+ text record: $0.25 per 1,000 text records |
 
 <https://azure.microsoft.com/en-us/services/cognitive-services/text-analytics/>
 
@@ -115,7 +110,7 @@ The translator text API provides neural translator services for developer integr
 
 |INSTANCE|FEATURES|PRICE|
 |---|---|---|
-|Free|Standard Translation         Text Translation     Language Detection       Bilingual Dictionary         Transliteration      Custom Translation          Training| 2M Characters Free|
+|Free|Standard Translation, Text Translation, Language Detection Bilingual Dictionary         Transliteration      Custom Translation          Training| 2M Characters Free|
 |S1|Standard Translation         Text Translation         Language Detection        Bilingual Dictionary   Transliteration    Custom Translation      Training   Translation   Custom model hosting| Standard   $ 10 per million characters          Custom     $ 40 per million chars of custom translation     $ 10 per million source + target chars of training data (max. $ 300/training)    $ 10 per hosted custom translation model per region, per month|
 
 <https://azure.microsoft.com/en-us/services/cognitive-services/translator-text-api/>
