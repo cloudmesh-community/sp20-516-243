@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Cognitive services on Azure provides AI technologies to those with little AI understanding. It is the umbrella service for all of the pretrained models in Azure's library. These services provide valuable resources for those who need vanilla AI service applications without much custom tuning. They provide API or SDK plugins for REST API, Python, .NET, Node.js,and Go. With this broad spectrum of native and plugin application, it gives developers relevant tools to incorporate these services into their applications. [[Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/face/index)] 
+Cognitive services on Azure provides AI technologies to those with little AI understanding. It is the umbrella service for all of the pretrained models in Azure's library. These services provide valuable resources for those who need vanilla AI service applications without much custom tuning. They provide API or SDK plugins for REST API, Python, .NET, Node.js,and Go. With this broad spectrum of native and plugin application, it gives developers relevant tools to incorporate these services into their applications. [[Documentation](<https://docs.microsoft.com/en-us/azure/cognitive-services/face/index)>] 
 
 ## Applications
 
@@ -32,10 +32,14 @@ The anomoly service [API](<https://docs.microsoft.com/en-us/azure/cognitive-serv
 
 Content moderator serves as a gatekeeper for content on user generated content. It will detect offensive content in text, videos, and images. Most, but not all servers have this feature installed. This feature is most often used with user generated content platforms. This tool scans uploaded images, texts, and videos and tags potentiallly objectionable content. This content can then be passed to a moderator for human review. The human review updates the model with his or her feedback 
 
-|Account  |	Transactions per Second (TPS)	| Features        |	Price                                           |
-|---      |---                            |---              |---                                              |
-|Free     |	1 TPS	                        | Moderate, Review| N/A                                             |
-|Standard	|10 TPS	                        |Moderate, Review |	0-1M transactions - $1 per 1,000 transactions    1M-5M transactions - $0.75 per 1,000 transactions    5M-10M transactions - $0.60 per 1,000 transactions    10M+ transactions - $0.40 per 1,000 transactions|
+|Account  |	Transactions per Second (TPS)	| Features        |	Price              |
+|---      |---                            |---              |---                 |
+|Free     |	1 TPS	                        | Moderate, Review| N/A                |
+|         |                               |                 |                    |
+|Standard	|10 TPS	                        |Moderate, Review |	0-1M transactions - $1 per 1,000 transactions|
+|         |                 |             |                  |1M-5M transactions - $0.75 per 1,000 transactions|
+|         |                 |             |                  |5M-10M transactions - $0.60 per 1,000 transactions|
+|         |                 |             |                  |10M+ transactions - $0.40 per 1,000 transactions|
 
 <https://azure.microsoft.com/en-us/services/cognitive-services/content-moderator/>
 
@@ -47,10 +51,12 @@ The algorithm works by the developer assigning user actions to a algorithmic rew
 
 |Account|Price|Storage|
 |---|---|---|
-|Free|50,000 transactions free /month| 10 GB|
-|Paid|First 1M transactions $1 per 1000 transactions,    Next 9M transaction $0.35 per 1000 transactions,    Next 90M transaction $0.20 per 1000 transactions,    Above 100M transactions $0.05 per 1000 transactions |10 GB/1M transactions/month|
-
-||Above 100M transactions $0.05 per 1000 transactions||
+|Free|50,000 transactions free /month               | 10 GB                     |
+|     |                                              |                          |
+|Paid|First 1M transactions $1 per 1000 transactions| 0 GB/1M transactions/month|
+|    |Next 9M transaction $0.35 per 1000 transactions|                          |
+|    |Next 90M transaction $0.20 per 1000 transactions|                         |  |    |Above 100M transactions $0.05 per 1000 transactions|                       |
+|    |Above 100M transactions $0.05 per 1000 transactions|                       |
 
 <https://docs.microsoft.com/en-us/azure/cognitive-services/personalizer/what-is-personalizer>
 
@@ -86,7 +92,10 @@ QnA Maker uses Knowledge base databases to create a chat bot. It can be customiz
 
 |INSTANCE|TRANSACTIONS PER SECOND (TPS)|LIMITATIONS|PRICE|
 |---     |---                          |---     |---|
-|Free Web/Container|	3 TPS |	Up to 1MB each document,    Up to 1MB each document,    Up to 100 transactions per minute,    Up to 50,000 transactions per month|3 managed documents free per month|
+|Free Web/Container|	3 TPS |	Up to 1MB each document|
+|                 |         |Up to 100 transactions per minute|
+|                 |         |Up to 50,000 transactions per month|
+|                 |         |3 managed documents free per month|
 |Standard|3 TPS|Up to 100 transactions per minute|$10 for unlimited managed documents|
 
 <https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/quickstarts/get-answer-from-knowledge-base-using-url-tool?pivots=url-test-tool-curl>
@@ -99,8 +108,15 @@ Text analytics aims to provide broad range text analytic service in SDK packagin
 
 |INSTANCE|FEATURES|PRICE|
 |---|---|---|
-|Free|Sentiment Analysis,       Key Phrase Extraction,    Language Detection,       Named Entity Recognition (not available in Container)| N/A|
-|Standard|Sentiment Analysis,     Key Phrase Extraction,     Language Detection,     Named Entity Recognition (not available in Container)|0-500,000 text records: $2 per 1,000 text records,      0.5M-2.5M text records: $1 per 1,000 text records,      2.5M-10.0M text records: $0.50 per 1,000 text records,      10M+ text record: $0.25 per 1,000 text records |
+|Free    |Sentiment Analysis      |N/A|
+|        |Key Phrase Extraction   ||
+|        |Language Detection      ||
+|        |Named Entity Recognition||
+|        |                        ||
+|Standard|Sentiment Analysis|0-500,000 text records: $2 per 1,000 text records|
+|        |Key Phrase Extraction|0.5M-2.5M text records: $1 per 1,000 text records|
+|        |Language Detection| 2.5M-10.0M text records: $0.50 per 1,000 text records|
+|        |Named Entity Recognition|10M+ text record: $0.25 per 1,000 text records |
 
 <https://azure.microsoft.com/en-us/services/cognitive-services/text-analytics/>
 
@@ -110,18 +126,31 @@ The translator text API provides neural translator services for developer integr
 
 |INSTANCE|FEATURES|PRICE|
 |---|---|---|
-|Free|Standard Translation, Text Translation, Language Detection Bilingual Dictionary         Transliteration      Custom Translation          Training| 2M Characters Free|
-|S1|Standard Translation         Text Translation         Language Detection        Bilingual Dictionary   Transliteration    Custom Translation      Training   Translation   Custom model hosting| Standard   $ 10 per million characters          Custom     $ 40 per million chars of custom translation     $ 10 per million source + target chars of training data (max. $ 300/training)    $ 10 per hosted custom translation model per region, per month|
+|Free|Standard Translation|2M Characters Free|
+|    |-Text Translation||
+|    |-Language Detection||
+|    |-Bilingual Dictionary||
+|    |-Transliteration||
+|    |Custom Translation||
+|    |-Training||
+|S1  |Standard Translation|Standard|
+|    |-Text Translation|- $ 10 per million characters|
+|    |-Language Detection||
+|    |-Bilingual Dictionary|Custom|
+|    |-Transliteration|- $ 40 per million chars of custom translation|
+|    |Custom Translation|- $ 10 per million source + target chars of training data (max. $ 300/training)|
 
 <https://azure.microsoft.com/en-us/services/cognitive-services/translator-text-api/>
 
 ### Speech
 
-Speech packages adds additional natural language processing tools to developers for spoken language. 
+Speech packages adds additional natural language processing tools to developers for spoken language. Azure provides API access through REST API as well as SDK in C++, C#, Java, JavaScript, Objective-C, and Python. 
+
+
 
 #### Speech to Text
 
-
+The speech to text tool uses neural network speech recognition algorthms to convert audiofiles to plaintext. Its applications include accesibility for the deaf and hard of hearing, domain specific vocabulary transcription, and translation.  
 
 <https://azure.microsoft.com/en-us/services/cognitive-services/speech-to-text/>
 
