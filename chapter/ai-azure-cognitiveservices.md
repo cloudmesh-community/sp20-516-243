@@ -37,9 +37,9 @@ Content moderator serves as a gatekeeper for content on user generated content. 
 |Free     |	1 TPS	                        | Moderate, Review| N/A                |
 |         |                               |                 |                    |
 |Standard	|10 TPS	                        |Moderate, Review |	0-1M transactions - $1 per 1,000 transactions|
-|         |                 |             |                  |1M-5M transactions - $0.75 per 1,000 transactions|
-|         |                 |             |                  |5M-10M transactions - $0.60 per 1,000 transactions|
-|         |                 |             |                  |10M+ transactions - $0.40 per 1,000 transactions|
+|         |                              |                  |1M-5M transactions - $0.75 per 1,000 transactions|
+|         |                              |                  |5M-10M transactions - $0.60 per 1,000 transactions|
+|         |                              |                  |10M+ transactions - $0.40 per 1,000 transactions|
 
 <https://azure.microsoft.com/en-us/services/cognitive-services/content-moderator/>
 
@@ -96,6 +96,7 @@ QnA Maker uses Knowledge base databases to create a chat bot. It can be customiz
 |                 |         |Up to 100 transactions per minute|
 |                 |         |Up to 50,000 transactions per month|
 |                 |         |3 managed documents free per month|
+||||
 |Standard|3 TPS|Up to 100 transactions per minute|$10 for unlimited managed documents|
 
 <https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/quickstarts/get-answer-from-knowledge-base-using-url-tool?pivots=url-test-tool-curl>
@@ -133,6 +134,7 @@ The translator text API provides neural translator services for developer integr
 |    |-Transliteration||
 |    |Custom Translation||
 |    |-Training||
+||||
 |S1  |Standard Translation|Standard|
 |    |-Text Translation|- $ 10 per million characters|
 |    |-Language Detection||
@@ -146,28 +148,37 @@ The translator text API provides neural translator services for developer integr
 
 Speech packages adds additional natural language processing tools to developers for spoken language. Azure provides API access through REST API as well as SDK in C++, C#, Java, JavaScript, Objective-C, and Python. 
 
-
-
 #### Speech to Text
 
-The speech to text tool uses neural network speech recognition algorthms to convert audiofiles to plaintext. Its applications include accesibility for the deaf and hard of hearing, domain specific vocabulary transcription, and translation.  
+The speech to text tool uses neural network speech recognition algorthms to convert audiofiles to plaintext. Its applications include accesibility for the deaf and hard of hearing and domain specific vocabulary transcription.
 
 <https://azure.microsoft.com/en-us/services/cognitive-services/speech-to-text/>
 
 #### Text to Speech
 
-<https://azure.microsoft.com/en-us/services/cognitive-services/text-to-speech/>)
+Text to speech a neural network text to speech tool that is meant to provide life-like voice synthesis to applications. Azure provides both access to pretrained models and the abiltiy to create unique voice models for specific applications.This can be used in place of immersive reader for accessibility features meant for blind individuals. 
+
+<https://azure.microsoft.com/en-us/services/cognitive-services/text-to-speech/>
 
 #### Speech Translation
+
+Speech translation provides real time speech translation tools to applications. Unlike speech to text and text to speech, speech translation is only cloud-based and will not operate on edge devices. 
 
 <https://azure.microsoft.com/en-us/services/cognitive-services/speech-translation/>
 
 #### Speaker Recognition
 
-<https://azure.microsoft.com/en-us/services/cognitive-services/speaker-recognition/>)
+Speaker recognition is a preview only tool available to developers. It is in early preview so the SDK's available for the other speech services are not ready currently. It is accessible through REST API. The service detects the speaker of an audio clip and names the entity, given that the entity has been captured previously. This can be used for multispeaker transcription services. As a preview, it is currently a free service.
+
+<https://azure.microsoft.com/en-us/services/cognitive-services/speaker-recognition/>
+
 ### Vision
 
+
+
 #### Computer Vision
+
+
 
 <https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/>
 
