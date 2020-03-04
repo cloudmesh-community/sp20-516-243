@@ -38,3 +38,9 @@
 
 * Attended meeting on Cloudmesh-frugal
 * Worked on Azure assignment
+* Spent about a day fixing my machine to work with Cloudmesh
+
+## Week 7 
+
+* Researched pricing API's for cloudmesh-frugal (AWS and AZURE)
+* Worked on Azure chapter
