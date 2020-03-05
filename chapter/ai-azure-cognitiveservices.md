@@ -1,6 +1,8 @@
-# :o: Cognitive Services on Azure sp20-516-243 David Drummond
+# Cognitive Services on Azure sp20-516-243 David Drummond
 
 ## Introduction
+
+Note: there is no bibtex yet. This will be done before midterm. 
 
 Cognitive services on Azure provides AI technologies to those with little AI understanding. It is the umbrella service for all of the pretrained models in Azure's library. These services provide valuable resources for those who need vanilla AI service applications without much custom tuning. They provide API or SDK plugins for REST API, Python, .NET, Node.js,and Go. With this broad spectrum of native and plugin application, it gives developers relevant tools to incorporate these services into their applications. [[Documentation]](<https://docs.microsoft.com/en-us/azure/cognitive-services/face/index>)
 
@@ -260,4 +262,90 @@ Ink Recognizer is a handwritting recognition software. It can be used with pen a
 
 <https://azure.microsoft.com/en-us/services/cognitive-services/ink-recognizer/>
 
+## Example
 
+One of the requirements for the chapter submission for this class is to present objective documentation of the service and not to advertise for the company. This can be done using Azure's Text Analytics service.
+
+1) The first step is to create an account on Azure. 
+
+2) Direct your browser to <https://azure.microsoft.com/en-us/> and click on start free.
+
+3) After signing up for a free account, go to <https://portal.azure.com/>. 
+
+4) Open the side bar and click "Create a new resource." This should bring up a menu of available resources. 
+
+5) You will then click on "AI + Machine Learning." If "Text Analytics" is on the featured page, select that and skip to the next step; otherwise, direct to "See All." You will see a heading "Cognitive Services." Select "See More" under this heading. You will then see all available cognitive services resources. Select "Text Analytics."
+
+6) Select "Create" and make a name, select your desired server location and pricing tier (this will allow you to select the free pricing tier). You will then select a resource group if you have made one already or create a new one. Creating a new resource group is simply giving the virtual machine a name. Once you have finished, select "Create."
+
+7) Direct to <https://portal.azure.com/> and select your newly created Texts Analytics page. It will have the name you made as well as type listed as "Cognitive Services." 
+
+8) Click "Quick Start" on the right hand menu. Then you will see your key1 and endpoint key. You will need this for your enviroment variables. 
+
+9) Instal Azure text analytics using the command
+
+```
+!pip install azure-ai-textanalytics
+```
+
+10) Open the Python editor of your choice and set the enviroment variables  with the following syntax
+
+
+```
+key = "ENTER YOUR KEY1 VARIABLE HERE"
+endpoint = "ENTER ENDPOINT VARIABLE HERE
+```
+
+11) You will then need to authenticate your usage using the following code. 
+
+```
+from azure.ai.textanalytics import TextAnalyticsClient, TextAnalyticsApiKeyCredential
+def authenticate_client():
+    ta_credential = TextAnalyticsApiKeyCredential(key)
+    text_analytics_client = TextAnalyticsClient(
+            endpoint=endpoint, credential=ta_credential)
+    return text_analytics_client
+
+client = authenticate_client()
+```
+12) You then have the ability to run the text analytics of your choice. As mentioned in the text analytics section,features like sentiment anlaysis, key feature extraction, and entity tagging are all available through the texts analytics API. Sentiment analysis can be used to determine whether your chapter demonstrates the required objectivity.The sentiment analysis can be coded as a fucntion.
+
+```
+def sentiment_analysis_example(client, docu):
+    # Turns function into a format that fucntion can use.
+    document = [docu]
+    docu = docu.replace('\n', ' ')
+    sentences=[docu.split('. ')]
+    response = client.analyze_sentiment(inputs=document)[0]
+    # Overall sentiment.
+    print("Document Sentiment: {}".format(response.sentiment))
+    print("Overall scores: positive={0:.3f}; neutral={1:.3f}; negative={2:.3f} \n".format(
+        response.sentiment_scores.positive,
+        response.sentiment_scores.neutral,
+        response.sentiment_scores.negative,
+    ))
+    for idx, sentence in enumerate(response.sentences):
+        # If the positive sentiment score is above .5, returns the sentence and the sentiment breakdown. 
+        if sentence.sentiment_scores.positive > .5:
+          # This requires that all sentences have a period followed by either a space or a newline. 
+          print(sentences[0][idx])
+          print("[Offset: {}, Length: {}]".format(sentence.offset, sentence.length))
+          print("Sentence {} sentiment: {}".format(idx+1, sentence.sentiment))
+          print("Sentence score:\nPositive={0:.3f}\nNeutral={1:.3f}\nNegative={2:.3f}\n".format(
+              sentence.sentiment_scores.positive,
+              sentence.sentiment_scores.neutral,
+              sentence.sentiment_scores.negative,
+        ))
+```
+
+13) Now call your document. You may analyze up to 1520 characters at a time. 
+
+```
+docu = """ 
+INSERT CHAPTER HERE
+ """
+
+sentiment_analysis_example(client, docu)
+
+```
+13) Now you may change your chapter according to the feedback from the Azure sentiment analysis. 
