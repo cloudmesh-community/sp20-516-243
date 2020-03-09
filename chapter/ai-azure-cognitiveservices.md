@@ -2,39 +2,35 @@
 
 ## Introduction
 
-Note: there is no bibtex yet. This will be done before midterm. 
-
-Cognitive services on Azure provides AI technologies to those with little AI understanding. It is the umbrella service for all of the pretrained models in Azure's library. These services provide valuable resources for those who need vanilla AI service applications without much custom tuning. They provide API or SDK plugins for REST API, Python, .NET, Node.js,and Go. With this broad spectrum of native and plugin application, it gives developers relevant tools to incorporate these services into their applications. [[Documentation]](<https://docs.microsoft.com/en-us/azure/cognitive-services/face/index>)
+Cognitive services on Azure provides AI technologies to those with little AI understanding. It is the umbrella service for all of the pretrained models in Azure's library. These services provide valuable resources for those who need vanilla AI service applications without much custom tuning. With a broad spectrum of native and plugin application, it gives developers relevant tools to incorporate these services into their applications. [@cognitve-intro-sp20-516-243]
 
 ## Applications
 
-As cognitive services is an umbrella service, there are different categories of developer tools within this service. This includes decision tools, language tools, speech tools, and vision tools. Not all tools are available in all regions. [[Documentation]](<https://azure.microsoft.com/en-us/global-infrastructure/services/?products=all>). 
+As cognitive services is an umbrella service, there are different categories of developer tools within this service. This includes decision tools, language tools, speech tools, and vision tools. Not all tools are available in all regions. [@cognitve-product-availability-sp20-516-243]. 
 
 ### Decision
 
-Decision tools enable stakeholders to automate data analysis for a variety of applications including anomoly detection, content moderation, and personalizing. This can provide service for both end-user and developer to scale businesses and automate menial work.  
+Decision tools enable stakeholders to automate data analysis for a variety of applications including anomaly detection, content moderation, and personalizing. This can provide service for both end-user and developer to scale businesses and automate menial work.  
 
-#### Anomoly Detector
+#### Anomaly Detector
 
-Anomoly detector is a decision feature that provides automated detection of outstanding data patterns. Specifically, this tool works to monitor any time-series data. This feature is in preview phase, therefore access is limited. 
+Anomaly detector is a decision feature that provides automated detection of outstanding data patterns [@cognitve-anomaly-overview-sp20-516-243]. Specifically, this tool works to monitor any time-series data. This feature is in preview phase, therefore access is limited. 
 
-Azure suggests this tool can be applied to business metrics, IoT data stream, or any time timestamps are applied to data. The algorithm looks for seasonality, spikes, and dips in the data. [[Video](<https://channel9.msdn.com/Shows/AI-Show/Introducing-Azure-Anomaly-Detector?WT.mc_id=ai-c9-niner>)] This tool has been used by Microsoft in their Microsoft 365 product management for several years and recently made the tool available to developers. 
+Azure suggests this tool can be applied to business metrics, IoT data stream, or any time timestamps are applied to data. The algorithm looks for seasonality, spikes, and dips in the data. [@cognitve-anomaly-video-sp20-516-243] This tool has been used by Microsoft in their Microsoft 365 product management for several years and recently made the tool available to developers. 
 
-The anomoly service [API](<https://docs.microsoft.com/en-us/azure/cognitive-services/anomaly-detector/>) kits are accessible through the Azure documentation.  
+The anomaly service development kits are accessible through the Azure documentation [@cognitve-anomaly-api-sp20-516-243].  
 
 
-|Account                  |INSTANCE	PRICE                    |
+|Account                  |PRICE [@cognitve-anomaly-pricing-sp20-516-243]|
 |---                      |---                               |
 |Free- Web/Container      |	20000 transactions free per month|
 |Standard - Web/Container |	$0.157 per 1,000 transactions    |
 
-<https://azure.microsoft.com/en-us/services/cognitive-services/anomaly-detector/>
-
 #### Content Moderator
 
-Content moderator serves as a gatekeeper for content on user generated content. It will detect offensive content in text, videos, and images. Most, but not all servers have this feature installed. This feature is most often used with user generated content platforms. This tool scans uploaded images, texts, and videos and tags potentiallly objectionable content. This content can then be passed to a moderator for human review. The human review updates the model with his or her feedback 
+Content moderator serves as a gatekeeper for content on user generated content. It will detect offensive content in text, videos, and images. Most, but not all servers have this feature installed. This feature is most often used with user generated content platforms. This tool scans uploaded images, texts, and videos and tags potentiallly objectionable content. This content can then be passed to a moderator for human review. The human review updates the model with his or her feedback [@cognitve-moderator-overview-sp20-516-243].
 
-|Account  |	Transactions per Second (TPS)	| Features        |	Price              |
+|Account  |	Transactions per Second (TPS)	| Features        |	Price [@cognitve-moderator-pricing-sp20-516-243]|
 |---      |---                            |---              |---                 |
 |Free     |	1 TPS	                        | Moderate, Review| N/A                |
 |         |                               |                 |                    |
@@ -42,8 +38,6 @@ Content moderator serves as a gatekeeper for content on user generated content. 
 |         |                              |                  |1M-5M transactions - $0.75 per 1,000 transactions|
 |         |                              |                  |5M-10M transactions - $0.60 per 1,000 transactions|
 |         |                              |                  |10M+ transactions - $0.40 per 1,000 transactions|
-
-<https://azure.microsoft.com/en-us/services/cognitive-services/content-moderator/>
 
 #### Personalizer
 
