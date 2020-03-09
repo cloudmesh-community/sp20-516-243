@@ -1,6 +1,4 @@
-# :o: AI Services on Azure
-
-:o2: bibtex missing
+#  AI Services on Azure
 
 * sp20-516-243 David Drummond
 
@@ -8,7 +6,7 @@ Azure is the Microsoft cloud computing platform. Azure operates through a multip
 
 ## Azure Cognitive Services
 
-Cognitive services is a service from Azure that is intended for devolpers with little ML understanding of experience. It provides out of the box tools  including [@azure-ai-sp20-516-243]:
+Cognitive services is a service from Azure that is intended for devolpers with little ML understanding of experience [@azure-ai-sp20-516-243] . It provides out of the box tools including :
 
 <div class="smalltable">
   
@@ -35,12 +33,11 @@ Cognitive services is a service from Azure that is intended for devolpers with l
 
 ## Machine Learning Lab
 
-Azure's machine learning lab is a multifaceted machine learning container platform intended to give machine learning practitioners to create and deploy custom ML models. Azure focuses highly on MLOps- a play on DevOps for machine learning practitioners 
+Azure's machine learning lab is a multifaceted machine learning container platform intended to give machine learning practitioners to create and deploy custom ML models. Azure focuses highly on MLOps- a play on DevOps for machine learning practitioners While machine learning focused containers are free on Azure, access to the Azure designed features of MLOps are corporate priced features and are inaccesible for student use [@azure-ml-sp20-516-243]. 
 
 ## Bot Services
 
-## Genomics Account
-
+Azure bot service provides the tools to create chat bots for enterprise solutions [@azure-bot-sp20-516-243]. The SDK allows integration with the cognitive services to allow intelligent chat services. It is availble for a mulitude of platforms including Facebook, kik, Microsoft Teams, Slack, and WhatsApp. 
 
 
 </div>
