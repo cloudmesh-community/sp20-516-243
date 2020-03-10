@@ -21,7 +21,7 @@ Azure suggests this tool can be applied to business metrics, IoT data stream, or
 The anomaly service development kits are accessible through the Azure documentation [@cognitve-anomaly-api-sp20-516-243].  
 
 
-|Account                  |PRICE [@cognitve-anomaly-pricing-sp20-516-243]|
+|Account                  |Price [@cognitve-anomaly-pricing-sp20-516-243]|
 |---                      |---                               |
 |Free- Web/Container      |	20000 transactions free per month|
 |Standard - Web/Container |	$0.157 per 1,000 transactions    |
@@ -41,11 +41,11 @@ Content moderator serves as a gatekeeper for content on user generated content. 
 
 #### Personalizer
 
-Personalizer is a ready to use, SDK for user recomendations on end user expereinces. This service has limited server rollout. 
+Personalizer is a ready to use, SDK for user recomendations on end user expereinces [cognitve-personalizer-overview-sp20-516-243]. This service has limited server rollout. 
 
-The algorithm works by the developer assigning user actions to a algorithmic reward system. If the computer correctly identifies the users action, it is rewarded, else it recieves not reward and adjusts the algorithm. 
+The algorithm works by the developer assigning user actions to a algorithmic reward system. If the computer correctly identifies the users action, it is rewarded, else it recieves not reward and adjusts the algorithm.[] 
 
-|Account|Price|Storage|
+|Account|Price [@cognitve-personalizer-pricing-sp20-516-243]|Storage|
 |---|---|---|
 |Free|50,000 transactions free /month               | 10 GB                     |
 |     |                                              |                          |
@@ -54,39 +54,29 @@ The algorithm works by the developer assigning user actions to a algorithmic rew
 |    |Next 90M transaction $0.20 per 1000 transactions|                         |  |    |Above 100M transactions $0.05 per 1000 transactions|                       |
 |    |Above 100M transactions $0.05 per 1000 transactions|                       |
 
-<https://docs.microsoft.com/en-us/azure/cognitive-services/personalizer/what-is-personalizer>
-
-<https://azure.microsoft.com/en-us/services/cognitive-services/personalizer/>
-
 ### Language
 
 The language application package aims to add natural language processing tools to developers in the form of API and SDK. 
 
 #### Immersive Reader
 
-Immersive reader is a preview only service to add AI text to speech integration for accessibility services. In preview, this feature is free and pricing out of preview is unavailable. The SDK packs for this projects are limited to Swift, node.js, and ASP.NET Core. The main features of immersive reader are text to speech, focused reading windows, visual reading cues, and syllable-word breakdown. 
-
-<https://docs.microsoft.com/en-us/azure/cognitive-services/immersive-reader/>
-
-<https://azure.microsoft.com/en-us/services/cognitive-services/immersive-reader/>
+Immersive reader is a preview only service to add AI text to speech integration for accessibility services [@cognitve-reader-overview-sp20-516-243]. In preview, this feature is free and pricing out of preview is unavailable. The SDK packs for this projects are limited to Swift, node.js, and ASP.NET Core. The main features of immersive reader are text to speech, focused reading windows, visual reading cues, and syllable-word breakdown [@cognitve-reader-details-sp20-516-243]. 
 
 #### Language Understanding
 
-Language Understanding is a pretrained natural language processor. It is available through SDK using C#, Python, and JavaScript. It is additionally available using REST in all REST compatible languages. Free versions of language understanding can process typed language; whereas, the paid version can process both typed and spoken language. Language understanding can be applied to bot services or IoT control. 
+Language Understanding is a pretrained natural language processor [@cognitve-language-overview-sp20-516-243]. It is available through SDK using C#, Python, and JavaScript. It is additionally available using REST in all REST compatible languages. Free versions of language understanding can process typed language; whereas, the paid version can process both typed and spoken language. Language understanding can be applied to bot services or IoT control. 
 
-|INSTANCE|TRANSACTIONS PER SECOND (TPS)|FEATURES|PRICE|
+|Instance|Transactions per Secong (TPS)|Features|Price [@cognitve-language-pricing-sp20-516-243]|
 |---     |---                          |---     |---|
 |Free Web/Container|	5 TPS |	Text Requests|10,000 transactions free per month|
 |Standard|50 TPS|Text Requests|$1.50 per 1000 transactions|
 |||Speech Requests|$5.50 per 1000 transactions|
 
-<https://azure.microsoft.com/en-us/services/cognitive-services/language-understanding-intelligent-service/>
-
 #### QnA Maker
 
-QnA Maker uses Knowledge base databases to create a chat bot. It can be customized to different levels of formality. It allows for additional processes to be added over time. It supports C#, Python, and JavaScript. For knowledge base integreation it supports cURL and Postman.
+QnA Maker uses Knowledge base databases to create a chat bot [@cognitve-qna-overview-sp20-516-243]. It can be customized to different levels of formality. It allows for additional processes to be added over time. It supports C#, Python, and JavaScript. For knowledge base integreation it supports cURL and Postman [@cognitve-qna-curl-sp20-516-243].
 
-|INSTANCE|TRANSACTIONS PER SECOND (TPS)|LIMITATIONS|PRICE|
+|Instance|Transactions per Secong (TPS)|Limitations |Price [@cognitve-qna-pricing-sp20-516-243]|
 |---     |---                          |---     |---|
 |Free Web/Container|	3 TPS |	Up to 1MB each document|
 |                 |         |Up to 100 transactions per minute|
@@ -95,15 +85,11 @@ QnA Maker uses Knowledge base databases to create a chat bot. It can be customiz
 ||||
 |Standard|3 TPS|Up to 100 transactions per minute|$10 for unlimited managed documents|
 
-<https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/quickstarts/get-answer-from-knowledge-base-using-url-tool?pivots=url-test-tool-curl>
-
-<https://azure.microsoft.com/en-us/services/cognitive-services/qna-maker/>
-
 #### Text Analytics
 
 Text analytics aims to provide broad range text analytic service in SDK packaging. The key features are sentiment analysis, key phrases extraction, named entities extraction and language determination. There is SDK available for C#, Python, Node.js, Go, and Ruby. It provides easy integration to Power BI and Flask. 
 
-|INSTANCE|FEATURES|PRICE|
+|Instance|Features|Price|
 |---|---|---|
 |Free    |Sentiment Analysis      |N/A|
 |        |Key Phrase Extraction   ||
@@ -121,7 +107,7 @@ Text analytics aims to provide broad range text analytic service in SDK packagin
 
 The translator text API provides neural translator services for developer integration. It is available in C# and REST API. Azure marketing tools indicate that it is useful for increasing research text data, detecting input language, bilingual dictionary tools, on device translation, and custom trained translation. 
 
-|INSTANCE|FEATURES|PRICE|
+|Instance|Features|Price|
 |---|---|---|
 |Free|Standard Translation|2M Characters Free|
 |    |-Text Translation||
