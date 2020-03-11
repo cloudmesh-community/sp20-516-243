@@ -87,9 +87,9 @@ QnA Maker uses Knowledge base databases to create a chat bot [@cognitve-qna-over
 
 #### Text Analytics
 
-Text analytics aims to provide broad range text analytic service in SDK packaging. The key features are sentiment analysis, key phrases extraction, named entities extraction and language determination. There is SDK available for C#, Python, Node.js, Go, and Ruby. It provides easy integration to Power BI and Flask. 
+Text analytics aims to provide broad range text analytic service in SDK packaging. The key features are sentiment analysis, key phrases extraction, named entities extraction and language determination. There is SDK available for C#, Python, Node.js, Go, and Ruby. It provides easy integration to Power BI and Flask. [@cognitve-analytics-overview-sp20-516-243]
 
-|Instance|Features|Price|
+|Instance|Features|Price [@cognitve-analytics-price-sp20-516-243]|
 |---|---|---|
 |Free    |Sentiment Analysis      |N/A|
 |        |Key Phrase Extraction   ||
@@ -101,13 +101,11 @@ Text analytics aims to provide broad range text analytic service in SDK packagin
 |        |Language Detection| 2.5M-10.0M text records: $0.50 per 1,000 text records|
 |        |Named Entity Recognition|10M+ text record: $0.25 per 1,000 text records |
 
-<https://azure.microsoft.com/en-us/services/cognitive-services/text-analytics/>
-
 #### Translator Text
 
-The translator text API provides neural translator services for developer integration. It is available in C# and REST API. Azure marketing tools indicate that it is useful for increasing research text data, detecting input language, bilingual dictionary tools, on device translation, and custom trained translation. 
+The translator text API provides neural translator services for developer integration. It is available in C# and REST API. Azure marketing tools indicate that it is useful for increasing research text data, detecting input language, bilingual dictionary tools, on device translation, and custom trained translation. [@cognitve-translate-overview-sp20-516-243]
 
-|Instance|Features|Price|
+|Instance|Features|Price [@cognitve-translate-price-sp20-516-243]|
 |---|---|---|
 |Free|Standard Translation|2M Characters Free|
 |    |-Text Translation||
@@ -124,17 +122,15 @@ The translator text API provides neural translator services for developer integr
 |    |-Transliteration|- $ 40 per million chars of custom translation|
 |    |Custom Translation|- $ 10 per million source + target chars of training data (max. $ 300/training)|
 
-<https://azure.microsoft.com/en-us/services/cognitive-services/translator-text-api/>
-
 ### Speech
 
 Speech packages adds additional natural language processing tools to developers for spoken language. Azure provides API access through REST API as well as SDK in C++, C#, Java, JavaScript, Objective-C, and Python. 
 
 #### Speech to Text
 
-The speech to text tool uses neural network speech recognition algorthms to convert audiofiles to plaintext. Its applications include accesibility for the deaf and hard of hearing and domain specific vocabulary transcription.
+The speech to text tool uses neural network speech recognition algorthms to convert audiofiles to plaintext [@cognitve-stt-overview-sp20-516-243]. Its applications include accesibility for the deaf and hard of hearing and domain specific vocabulary transcription.
 
-|Instance|Features|Price|
+|Instance|Features|Price [@cognitve-speech-price-sp20-516-243]|
 |---|---|---|
 |Free|Standard|5 audio hours free per month|
 |   |Custom|5 audio hours free per month. 1 model free per month|
@@ -143,14 +139,12 @@ The speech to text tool uses neural network speech recognition algorthms to conv
 |        |Custom|$1.40 per audio hour. Endpoint hosting: $0.0538 per model per hour|
 
 
-<https://azure.microsoft.com/en-us/services/cognitive-services/speech-to-text/>
-
 #### Text to Speech
 
-Azure Text to Speech is a neural network text to speech tool that is meant to provide life-like voice synthesis to applications. Azure provides both access to pretrained models and the abiltiy to create unique voice models for specific applications.This can be used in place of immersive reader for accessibility features meant for blind individuals. 
+Azure Text to Speech is a neural network text to speech tool that is meant to provide life-like voice synthesis to applications. [@cognitve-tts-overview-sp20-516-243] Azure provides both access to pretrained models and the abiltiy to create unique voice models for specific applications.This can be used in place of immersive reader for accessibility features meant for blind individuals. 
 
 
-|Instance|Features|Price|
+|Instance|Features|Price [@cognitve-speech-price-sp20-516-243]|
 |---|---|---|
 |Free|Standard|5M characters free per month|
 |   |Neural|0.5M characters free per month|
@@ -161,24 +155,18 @@ Azure Text to Speech is a neural network text to speech tool that is meant to pr
 |   |Custom| $6 per 1M characters. Endpoint hosting: $0.0537 per model per hour |
 |   |Custom Neural|Real-time synthesis: $24 per 1M characters. Endpoint hosting: $4.04 per model per hour. Long audio creation: $100 per 1M characters|
 
-<https://azure.microsoft.com/en-us/services/cognitive-services/text-to-speech/>
-
 #### Speech Translation
 
-Speech translation provides real time speech translation tools to applications. Unlike speech to text and text to speech, speech translation is only cloud-based and will not operate on edge devices. 
+Speech translation provides real time speech translation tools to applications. [@cognitve-transpeech-overview-sp20-516-243] Unlike speech to text and text to speech, speech translation is only cloud-based and will not operate on edge devices. 
 
-|Instance|Price|
+|Instance|Price [@cognitve-speech-price-sp20-516-243]|
 |---|---|
 |Free|5 audio hours free per month|
 |Standard|$2.50 per audio hour|
 
-<https://azure.microsoft.com/en-us/services/cognitive-services/speech-translation/>
-
 #### Speaker Recognition
 
-Speaker recognition is a preview only tool available to developers. It is in early preview so the SDK's available for the other speech services are not ready currently. It is accessible through REST API. The service detects the speaker of an audio clip and names the entity, given that the entity has been captured previously. This can be used for multispeaker transcription services. As a preview, it is currently a free service.
-
-<https://azure.microsoft.com/en-us/services/cognitive-services/speaker-recognition/>
+Speaker recognition is a preview only tool available to developers. [@cognitve-speaker-overview-sp20-516-243] It is in early preview so the SDK's available for the other speech services are not ready currently. It is accessible through REST API. The service detects the speaker of an audio clip and names the entity, given that the entity has been captured previously. This can be used for multispeaker transcription services. As a preview, it is currently a free service.
 
 ### Vision
 
@@ -186,28 +174,24 @@ Azure Vision is an umbrella brand for the products using computer vision and ima
 
 #### Computer Vision
 
-Computer vision is a pretrained computer vision model that can detect more than 10,000 ibjects. It can be trun in the cloud or in edge containers. Azure claims this service can be applied to robotic process automation, digital asset management, or to accesibillity features for the blind. The pricing strategy for computer vision is based on the object being detected. However, Azure provides 20 free transactions per minute. The full pricing detail can be found [here.](<https://azure.microsoft.com/en-us/pricing/details/cognitive-services/computer-vision/>) There is SDK available in .NET, Python, Java, Node.js, and Go.
-
-<https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/>
+Computer vision is a pretrained computer vision model that can detect more than 10,000 ibjects. [@cognitve-comvis-overview-sp20-516-243] It can be trun in the cloud or in edge containers. Azure claims this service can be applied to robotic process automation, digital asset management, or to accesibillity features for the blind. The pricing strategy for computer vision is based on the object being detected. However, Azure provides 20 free transactions per minute. The full pricing detail can be found [here.](<https://azure.microsoft.com/en-us/pricing/details/cognitive-services/computer-vision/>) There is SDK available in .NET, Python, Java, Node.js, and Go.
 
 #### Custom Vision
 
-Custom vision allows fevelopers to custom train a computer vision model. It is optimized for small data inputs and large differences in objects. Azure warns that it is not optimal for quality assurance. The model can be exported for offline use. There is SDK available in .NET, Python, Java, Node.js, and Go. 
+Custom vision allows fevelopers to custom train a computer vision model.[@cognitve-custvis-overview-sp20-516-243] It is optimized for small data inputs and large differences in objects. Azure warns that it is not optimal for quality assurance. The model can be exported for offline use. There is SDK available in .NET, Python, Java, Node.js, and Go. 
 
-|Instance|Transactions per Second|Features|Price|
+|Instance|Transactions per Second|Features|Price [@cognitve-custvis-overview-sp20-516-243]|
 |---|---|---|---|
 |Free|2 TPS|Upload, training, and prediction transactions. Up to 2 projects. Up to 1 hour training per month|5,000 training images free per project. 10,000 predictions per month|
 |Standard|10 TPS|Upload and prediction transactions. Up to 100 projects|$2 per 1,000 transactions|
 |        |      |Training|$20 per compute hour|
 |        |      |Image Storage|$0.70 per 1000 images|
 
-<https://azure.microsoft.com/en-us/services/cognitive-services/custom-vision-service/>
-
 #### Face
 
-The Face API is a facial detection and analysis software. It identifies the face and extracts features such as head pose, gender, age, emotion, facial hair, and eye wear detection. It can be used to verify identity and find similar faces or identical faces.  There is SDK available in .NET, Python, Java, Node.js, and Go.
+The Face API is a facial detection and analysis software. [@cognitve-face-overview-sp20-516-243] It identifies the face and extracts features such as head pose, gender, age, emotion, facial hair, and eye wear detection. It can be used to verify identity and find similar faces or identical faces.  There is SDK available in .NET, Python, Java, Node.js, and Go.
 
-|Instance|Tranactions per Minute|Price|
+|Instance|Tranactions per Minute|Price [@cognitve-face-price-sp20-516-243]|
 |---|---|---|
 |Free|20 TPM|30,000 transactions free per month|
 |    |      |                                   |
@@ -217,34 +201,28 @@ The Face API is a facial detection and analysis software. It identifies the face
 |       |       |100M+ transactions - $0.40 per 1,000 transactions |
 |Face Storage|  |$0.01 per 1,000 faces per month|
 
-<https://azure.microsoft.com/en-us/services/cognitive-services/face/>
-
 #### Form Recognizer
 
-Form recognizer takes images or PDFs and autopopulates their contents into custom or prebuilt forms. This may include pictures receipts, invoices, bills, or legal forms. The Form Recognizer can use supervised or unsupervised learning to populate the custom forms. It is only available using REST API or .NET SDK. 
+Form recognizer takes images or PDFs and autopopulates their contents into custom or prebuilt forms.[@cognitve-form-overview-sp20-516-243] This may include pictures receipts, invoices, bills, or legal forms. The Form Recognizer can use supervised or unsupervised learning to populate the custom forms. It is only available using REST API or .NET SDK. 
 
-|Instance|Document Type|Price|
+|Instance|Document Type|Price [@cognitve-form-price-sp20-516-243]|
 |---|---|---|
 |Free| |0-500 pages Free per Month|
 |Standard|Custom|$25 per 1000 pages|
 |         |Pre-Built|$5 per 1000 pages|
 
-<https://azure.microsoft.com/en-us/services/cognitive-services/form-recognizer/>
-
 #### Ink Recognizer
 
-Ink Recognizer is a handwritting recognition software. It can be used with pen and paper interactions or digital handwriting. Azure suggests applying this service to notetaking, form-filling, content search, and documentation annotation. 
+Ink Recognizer is a handwritting recognition software. [@cognitve-ink-overview-sp20-516-243] It can be used with pen and paper interactions or digital handwriting. Azure suggests applying this service to notetaking, form-filling, content search, and documentation annotation. 
 
-|Instance|Price|
+|Instance|Price [@cognitve-ink-price-sp20-516-243]|
 |---|---|
 |Free|2000 transactions free per month|
 |Standard| 	$2 per 1,000 transactions|
 
-<https://azure.microsoft.com/en-us/services/cognitive-services/ink-recognizer/>
-
 ## Example
 
-One of the requirements for the chapter submission for this class is to present objective documentation of the service and not to advertise for the company. This can be done using Azure's Text Analytics service.
+One of the requirements for the chapter submission for this class is to present objective documentation of the service and not to advertise for the company. This can be done using Azure's Text Analytics service [@cognitve-text-code-sp20-516-243]. 
 
 1) The first step is to create an account on Azure. 
 
