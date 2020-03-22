@@ -44,3 +44,7 @@
 
 * Researched pricing API's for cloudmesh-frugal (AWS and AZURE)
 * Worked on Azure chapter
+
+## Week 8 
+
+* Completed the Azure chapter
