@@ -48,3 +48,14 @@
 ## Week 8 
 
 * Completed the Azure chapter
+* Got frugal working with current cloudmesh version.
+
+## Week 9
+
+Sorry I forgot to update this last week.
+
+* Altered local frugal to pull volume pricing. 
+
+## Week 10
+
+* Worked on json file for volume. 
