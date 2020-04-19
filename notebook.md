@@ -59,3 +59,9 @@ Sorry I forgot to update this last week.
 ## Week 10
 
 * Worked on json file for volume. 
+
+## Week 11
+
+* Fixed cloudmesh-azure
+* Implemented easy install cloudmesh-frugal
+* Fixed issue with frugal where AWS was not responding
