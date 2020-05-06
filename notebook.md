@@ -58,10 +58,33 @@ Sorry I forgot to update this last week.
 
 ## Week 10
 
-* Worked on json file for volume. 
+* Worked on json file for storage. 
 
 ## Week 11
 
-* Fixed cloudmesh-azure
 * Implemented easy install cloudmesh-frugal
 * Fixed issue with frugal where AWS was not responding
+
+## Week 12
+
+* No progress
+
+## Week 13
+
+* Implemented the new Azure API into cloudmesh-azure
+
+## Week 14
+
+* Implemented gui first draft
+
+## Week 15
+
+* Fixed GUI
+* Implemented compute gui
+* Finished storage
+
+## Week 16
+
+* Added caching 
+* Finished GUI
+* Fininshed documentation 
